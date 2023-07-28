@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  background: pink;
+  border-radius: 5px;
+  height: 12rem;
+  width: 30rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+.header {
+  font-size: 1.5rem;
+}
+
+.input_field {
+  margin-top: 1.5rem;
+  width: 28rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1.75rem;
+  border: 2px solid black;
+  padding: 1rem;
+  background-color: pink;
+}
+
+.button {
+  background: black;
+  color: #fff;
+  width: 8rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: none;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.clipboard_icon {
+  position: absolute;
+  margin-left: 25rem;
+  font-size: 1.75rem;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.clipboard_icon:hover {
+  opacity: 0.9;
+}
